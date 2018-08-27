@@ -1,4 +1,5 @@
-from wagtail.wagtailcore.blocks import ChoiceBlock
+from wagtail.core.blocks import ChoiceBlock
+
 
 class IconChoiceBlock(ChoiceBlock):
 	choices = [
